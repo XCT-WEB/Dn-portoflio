@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dnstream, just a regular guy making quality minecraft videos.">
+    <title>Dnstream youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="main-nav" aria-label="Primary">
+            <a href="#home" class="logo">
+                Dnstream
+                
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#channel">Channel</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#latest_videos">My latest videos</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> YouTube creator · minecraft player</p>
+            <h1>Hi, I’m Dnstream.<br>I play minecraft mostly bedrock</h1><em>Dnstream</em>
+                Giving video editing or mc Tutorials
+                so you can make the perfect videos
+            </p>
+            <div class="hero-actions">
+                <a class="btn btn-primary" href="https://www.youtube.com/@dn-stream" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+                <a class="btn btn-ghost" href="#videos">Browse videos</a>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-head">
+                <p class="eyebrow">About</p>
+                <h2>Just some video-editing, thumbnails making and mc</h2>
+            </div>
+            <div class="about-grid">
+                <p>
+                    I’m DNstream,
+                    This site was created by mr code tech on YouTube
+                </p>
+                <p>
+                    I create good minecraft youtube vides and helping my dearest fans
+                </p>
+               
+            </div>
+        </section>
+
+        <section id="channel" class="section channel-section">
+            <div class="section-head">
+                <p class="eyebrow">The channel</p>
+                <h2>Dnstream on YouTube</h2>
+            </div>
+            <div class="channel-card">
+                <div>
+                    
+                    <p>
+                        Making amazing minecraft videos and editing tutorials Subscribe in order to get all the latest updates
+                    </p>
+                    <a class="btn btn-primary" href="https://www.youtube.com/@dn-stream/featured" target="_blank" rel="noopener noreferrer">Subscribe</a>
+                </div>
+                
+                </dl>
+            </div>
+        </section>
+
+        <section id="videos" class="section">
+            <div class="section-head">
+                <p class="eyebrow">Featured</p>
+                <h2>Most popular from the channel</h2>
+            </div>
+            <div id="video-grid-popular" class="video-grid"></div>
+        </section>
+        <section id="latest_videos" class="section">
+            <div class="section-head">
+                <p class="eyebrow">Featured</p>
+                <h2>Latest on this channel</h2>
+            </div>
+            <div id="video-grid-latest" class="video-grid_latest"></div>
+        </section>
+
+
+
+
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span>DNstream</p>
+        <a href="https://www.youtube.com/@dn-stream/featured" target="_blank" rel="noopener noreferrer">YouTube</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
