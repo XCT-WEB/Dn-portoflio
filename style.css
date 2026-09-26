@@ -1,19 +1,28 @@
 :root {
     --bg: #000000;
-    --bg-elevated: #949eb5;
-    --line:#081c48;
-    --text: #641659;
-    --muted: #142a56;
-    --accent: #000000;
-    --accent-2: #5ce1e6;
+    --bg-elevated: #ffffff;
+    --line:#3e73e7;
+    --text: #FF0FFF;
+    --muted: #FF00FF;
+    --accent: #FF00FF;
+    --accent-2: #FF00FF;
     --radius: 16px;
     --nav-h: 78px;
+}
+.random_text {
+    color: #00d5ff;
 }
 
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: "Riffic Free", sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 213, 255, 0.8), 0 0 20px rgba(0, 213, 255, 0.6), 0 0 30px rgba(0, 213, 255, 0.4);
 }
 
 html {
@@ -23,9 +32,15 @@ html {
 body {
     margin: 0;
     background: var(--bg);
+    background-image: url('https://chat.google.com/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=ABLWXTfh01SO7G%2BnuDNdjc%2FCaj68SM%2BueWnrNXwgr5k7s38c%2FanVfxxvAkLAxyEQWgku3Bb2ZJhS2k2DTU6WnuLXZHYS33E8SOBvL2n%2B65Mu7YBeGozOVetNDw5V9wi1IZXg6opF33%2FuOyJN%2FAmY2HT3Z5RssnFYyibF01rfRVH3hiRuLsu7fWulW0CTbHJ3iJThc1oAWi44%2Bcf5PHtsSIYWBBM8l%2B7OuomV5kykWk%2Bu5lb9SQ3q4ilU7Q6Ys%2BppG2CiCze7MZC%2Ffm%2BDHQriGScLv8pJlh90aM083qbb7GEC73m%2FDlgK0QtScAzbeNBK2kqw2M2Df%2FfPkF3wEmaPJE%2FWaT6%2F9eDR6mRCmpG20SsGnVo%2FdV%2B9xi4fLGFm%2B6XDskf5lK0jxHWiggoxLJ2%2BxJeU2vl2%2FbBCQGJyOyMHEFTQ5KISc%2BpJOe%2B2k8GY9pHR1u%2BizOluDqFsOhOPMxrn1gbR9xqU8vTp6Fj8%2BJGuVkycIKNUv1f8XqclCIeFMOxPLM7q%2BtLRb7GGnCp8jRvYfVu6CZ9b0DLljapYQN8vM3h6kkdjdHBVQtax%2B8ohCoIXjmrUPPUPMDlPg6JObhk1Xe48p9eAlQ%2FTwEyFatyTlecXgZ8v4KvJUmeEZZCQ0jsJ3dfJIPGQYMBixFeGTQ4JvlSqeYuY8Ma%2Bi43WVfDskxVyKlWTpNCHNoCdkT%2BQ&allow_caching=true&sz=w1910-h872-rw&auditContext=forDisplay');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: var(--text);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Riffic Free", sans-serif;
     line-height: 1.6;
+    text-shadow: 0 0 10px rgba(0, 213, 255, 0.7), 0 0 20px rgba(0, 213, 255, 0.5), 0 0 30px rgba(0, 213, 255, 0.3);
 }
 
 .site-header {
@@ -54,6 +69,8 @@ body {
     font-weight: 700;
     letter-spacing: 1.6px;
     line-height: 1.1;
+    font-family: "Riffic Free", sans-serif;
+    text-shadow: 0 0 10px rgba(0, 213, 255, 0.7), 0 0 20px rgba(0, 213, 255, 0.5);
 }
 
 .logo span {
@@ -84,6 +101,8 @@ body {
     letter-spacing: 0.8px;
     text-transform: uppercase;
     transition: color 0.25s ease;
+    font-family: "Riffic Free", sans-serif;
+    text-shadow: 0 0 8px rgba(0, 213, 255, 0.5), 0 0 15px rgba(0, 213, 255, 0.3);
 }
 
 .nav-links a::after {
@@ -152,8 +171,8 @@ main {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: #ffffff;
-    box-shadow: 0 0 0 4px rgba(61, 255, 138, 0.15);
+    background: #FF00FF;
+    box-shadow: 0 0 0 4px ;
 }
 
 h1,
@@ -198,6 +217,7 @@ h1 em {
     cursor: pointer;
     font-family: inherit;
     font-size: 15px;
+    text-shadow: 0 0 8px rgba(0, 213, 255, 0.6), 0 0 15px rgba(0, 213, 255, 0.4);
 }
 
 .btn-primary {
@@ -423,3 +443,4 @@ h1 em {
         grid-template-columns: 1fr;
     }
 }
+
